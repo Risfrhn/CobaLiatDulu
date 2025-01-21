@@ -1,0 +1,269 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Con 2 */
+.container {
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+.container > div {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20vh;
+}
+
+
+
+.gambar,.two {
+    height: 500vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+
+
+.two p {
+    font-size: 40px;
+    position: relative;
+    top: -130px;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+.two img {
+    display: inline-block;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    top: -130px;
+    z-index: 1;
+}
+
+.gelar {
+    position: relative;
+    top: -120px;
+    font-size: 2rem;
+    margin: 10px 0 0;
+    font-weight: lighter;
+    z-index: 1;
+}
+
+.text {
+    position: relative;
+    top: -110px;
+    font-size: 1,5rem;
+    font-weight: lighter;
+    z-index: 1;
+    margin-left: 200px; 
+    margin-right: 200px;
+}
+
+.text2 {
+    position: relative;
+    top: -110px;
+    font-size: 1,5rem;
+    font-weight: lighter;
+    z-index: 1;
+}
+
+@keyframes fadeScaleBgAnimation {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(2);
+    }
+}
+
+.baloons img {
+    display: inline-block;
+    position: absolute;
+}
+
+.baloons img:nth-child(even) {
+    left: -10%;
+}
+
+.baloons img:nth-child(odd) {
+    right: -10%;
+}
+
+.baloons img:nth-child(3n + 0) {
+    left: 30%;
+}
+
+.three,.four {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.four svg {
+    left: 0;
+    position: absolute;
+    top: 0;
+    visibility: hidden;
+    width: 25px;
+}
+
+.four svg:nth-child(1) {
+    fill: #bd6ecf;
+    left: 5vw;
+    top: 7vh;
+}
+
+.four svg:nth-child(2) {
+    fill: #7dd175;
+    left: 35vw;
+    top: 23vh;
+}
+
+.four svg:nth-child(3) {
+    fill: #349d8b;
+    left: 23vw;
+    top: 33vh;
+}
+
+.four svg:nth-child(4) {
+    fill: #347a9d;
+    left: 57vw;
+    top: 43vh;
+}
+
+.four svg:nth-child(5) {
+    fill: #c66053;
+    left: 7vw;
+    top: 68vh;
+}
+
+.four svg:nth-child(6) {
+    fill: #bfaa40;
+    left: 77vw;
+    top: 42vh;
+}
+
+.four svg:nth-child(7) {
+    fill: #e3bae8;
+    left: 83vw;
+    top: 68vh;
+}
+
+.four svg:nth-child(8) {
+    fill: #8762cb;
+    left: 37vw;
+    top: 86vh;
+}
+
+.four svg:nth-child(9) {
+    fill: #9a90da;
+    left: 87vw;
+    top: 94vh;
+}
+
+.five p{
+    font-size: 20px;
+    position: relative;
+    top: 500px;
+    font-weight: lighter;
+}
+
+.sinchan1 img{
+    position: absolute;
+    left: 10%; 
+    top: 0vh;
+    height: 350px;
+    width: 350px;
+}
+
+.sinchan2 img{
+    position: absolute;
+    right: 10%;
+    top: 0vh;
+    height: 350px;
+    width: 350px;
+}
+
+
+
+/* container 2 */
+
+.containers {
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100vw;
+}
+
+.containers > div {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 20vh;
+}
+
+.six{
+    display: none;
+}
+
+
+.six h2{
+    font-size: 4.5rem;
+    position: relative;
+    top: 50px;
+}
+
+.six p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.seven{
+    display: none;
+}
+
+.seven h2{
+    font-size: 4.5rem;
+    position: relative;
+    top: 50px;
+}
+
+.seven p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.eight{
+    display: none;
+}
+
+
+.eight h2{
+    font-size: 4.5rem;
+    position: relative;
+    top: 50px;
+}
+
+.eight p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
